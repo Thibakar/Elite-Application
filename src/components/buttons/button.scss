@@ -1,0 +1,16 @@
+@import "../../assets/colors.scss";
+
+
+.button-primary {
+	background-color: $color-blueGreen ;
+    border-color: $color-blueGreen;
+}
+
+.custom-style {
+    width: 100%;
+    font-weight: bold;
+    font-size: 10px;
+    border-radius: 4px;
+    padding: 10px 24px;
+    box-shadow: 0 4px 29px 0 rgba(0, 0, 0, 0.07);
+}

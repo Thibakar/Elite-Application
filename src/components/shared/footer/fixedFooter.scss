@@ -1,0 +1,18 @@
+.fixedFooter {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: black;
+  text-align: right;
+  border: 1px solid #ddd;
+  .footer_content {
+    text-align: right;
+    // margin-right: 50px;
+    // margin-top: -34px;
+  }
+  // p{
+  // 	margin-left: 55px;
+  // }
+}

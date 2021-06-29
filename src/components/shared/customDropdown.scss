@@ -1,0 +1,27 @@
+.blueBorder{
+	border-bottom:1px solid #4285f4 !important;
+}
+.customDropdown{
+    select
+{
+	border-top:0;
+	border-left:0;
+    border-right:0;
+    width: 100% ;
+    // margin-top:35px ;
+    border-radius:0px;
+    color: #999;
+    padding: .0rem .0rem;
+}
+}
+
+.customDropdown{
+select:focus{
+    outline:border;
+   }
+}
+
+.form-control:focus
+{
+    box-shadow: 0 0 0 0.0rem rgba(0,123,255,.25) !important; 
+}

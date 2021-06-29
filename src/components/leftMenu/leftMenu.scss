@@ -1,0 +1,96 @@
+.leftMenu{
+	.leftMenuToggle{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		flex-direction: row-reverse;
+		margin: 10px 15px;
+		.fa{
+			color: #fff;
+			font-size: 25px;
+		}
+	}
+	.side-nav{
+		width: 60px;
+		background-image: linear-gradient(to bottom, #43a564, #146b48);
+		overflow: hidden;
+		transition: width .2s linear;
+		z-index: 10;
+		.LeftMenuList{
+			height: calc(100vh - 111px);
+			overflow: scroll;
+			list-style: none;
+			padding-inline-start: 0px;
+			.menuHeader{
+				display: none;
+				color: #fff;
+				margin-left: 10px;
+				font-size: 14px;
+				font-weight: bold;
+			}
+			.menuItem {
+				width: 100%;
+				font-size: 16px;
+				text-transform: capitalize;
+				color: white;
+				height: 40px;
+				display: flex;
+				align-items: center;
+				>.menu-content {
+					font-size: 15px;
+					line-height: 30px;
+					display: none;
+				}
+				&:hover {
+					background-image: linear-gradient(to bottom, #43a564, #146b48);
+					cursor: pointer;
+					opacity: 1;
+				}
+			}
+		}
+	}
+	.side-nav.active {
+		width: 260px;
+		.LeftMenuList{
+			.menuHeader{
+				display: block;
+			}
+			.menuItem {
+				.menu-content {
+					display: inline-block;	
+				}
+			}
+		}
+	}
+	div.side-nav.expanded {
+		width: 260px;
+		overflow: hidden;
+	}
+	.menu-icon {
+		display: inline-block;
+		margin: 0 15px;
+		font-size: 15px;
+	}
+	.menu-content {
+		// display: none;
+		transition: all .2s ease;
+		
+	}
+}
+
+
+	.leftMenuIcon {
+		font-size: 25px;
+		z-index: 9;
+		div {
+			background-color: #f2f2f2;
+			border-radius: 50%;
+			width: 30px;
+			height: 30px;
+			line-height: 25px;
+			margin-top: 37px;
+			padding-left: 12px;
+			z-index: -1;
+			margin-left: -8px;
+		}
+	}

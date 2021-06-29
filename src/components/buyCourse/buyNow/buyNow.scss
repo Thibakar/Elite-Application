@@ -1,0 +1,78 @@
+.paymentButton {
+	width: 350px;
+	height: 50px;
+	border-radius: 5px;
+	border: solid 1px var(--warm-grey);
+	background-color: #e9e9e9;
+	color: #000000;
+}
+.shipping-head {
+	font-size: 48px;
+	font-weight: 600;
+	color: #474747;
+}
+.CheckImgAlign{
+      .checkImgWidth{
+		 width:65px;
+		 height:auto;
+         margin: 10px auto 20px;
+         display: block;
+      }
+}
+.OrderAlign
+{
+	color:black;
+	text-align:center;
+	font-size:25px !important;
+}
+.FontSize
+{
+	font-size:12px;
+	text-align:justify;
+	margin-left: 20px;
+    margin-right: 20px;
+}
+.Inst{
+
+	width:100%;
+	text-align: center;
+
+}
+.mainInstructions
+{
+	display:flex;
+	justify-content: space-between;
+	 .InstRight {
+		padding-left: 20px;
+        }
+	img{
+		width:50px;
+		// justify-content: space-between !important;
+	}
+}
+.startTest:hover{
+	color:#146b48;
+}
+// .modalFooter{
+// 	padding:20px;
+
+// }
+// .modalFooter:hover{
+
+//    color:#146b48 ;
+// }
+.linkBorder{
+	&:hover{
+		color:#146b48;
+		border-bottom: 1px solid #146b48;
+	}
+}
+.backColor:hover
+{
+	color:#146b48;
+}
+.linkBorder:hover{
+	a{
+		color:#146b48;;
+	}
+}

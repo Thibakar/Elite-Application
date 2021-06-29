@@ -1,0 +1,167 @@
+
+body {
+	overflow-x: hidden;
+	font-family: "Open Sans", sans-serif;
+}
+.web-font-styling {
+	font-family: "Open Sans", sans-serif;
+}
+.clr {
+	background-color: white !important;
+	color: #000000 !important;
+}
+.nav-tabs {
+	.nav-link {
+		color: black !important;
+	}
+}
+.nav-link {
+	&:focus {
+		background-color: rgba(20, 107, 72, 0.1) !important;
+	}
+}
+.bg-green {
+	background-color: #146b48;
+}
+.hint {
+	padding-left: 0px;
+	font-size: 18px;
+}
+.goto {
+	color: #000000;
+}
+.sub-head {
+	font-size: 20px;
+	padding-top: 30px;
+	font-family: sans-serif;
+}
+.table-head {
+	font-family: OpenSans;
+	font-size: 16px;
+	font-weight: 600;
+}
+.table-content {
+	font-size: 14px;
+	font-weight: normal;
+}
+.exam-img {
+	margin-left: 20px;
+}
+.link-head {
+	margin-top: 20px;
+}
+td {
+	font-size: 12px;
+}
+.pie-chart {
+	width: 150px !important;
+	height: 150px !important;
+}
+.exam-add {
+	text-align: center;
+	.Card-video.card {
+		>div {
+			width: 268px !important;
+			height: 360px !important;
+			border-radius: 20px;
+		}
+		}
+}
+.btn-add {
+	width: 269px;
+//   height: 50px;
+  border-radius: 5px;
+  border: solid 1px #666666;
+  background-color: #ffffff !important;
+  
+  color:#000000;
+}
+.buy-a-course {
+	width: 269px;
+	height: 154px;
+	border-radius: 5px;
+	background-color: #007043;
+}
+.center {
+	float: center;
+}
+.other-course-Card {
+	width: 276px;
+	// height:200px;
+	object-fit: contain;
+	border-radius: 4px;
+	box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+	background-color: #f8f8f8;
+	margin-bottom: 10px;
+}
+.counslingContainer
+{
+	.counselingForm 
+	{
+		.name 
+		{
+		width: 269px;
+//   height: 50px;
+  object-fit: contain;
+  
+  border-radius: 5px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #efefef;
+  color:#000000;
+	}
+	.number{
+		width: 269px;
+//   height: 50px;
+  object-fit: contain;
+  
+  border-radius: 5px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #efefef;
+  color:#000000;
+
+	}
+	.course
+	{
+		width:40%;
+//   height: 50px;
+  object-fit: contain;
+ 
+  border-radius: 5px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #efefef;
+	}
+	.subcourse
+	{
+		width: 40%;
+//   height: 50px;
+  object-fit: contain;
+ 
+  border-radius: 5px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #efefef;
+  color:#000000;
+
+	}
+	.or-line{
+	padding-left:120px;
+	}
+	.call-back
+	{
+		width: 269px;
+//   height: 50px;
+  border-radius: 5px;
+  border: solid 1px #666666;
+  background-color: #ffffff !important;
+  
+  color:#000000;
+  
+
+
+	}
+	.phone-icon{
+		width: 20px;
+		margin-right: 20px;
+	}
+}
+
+}

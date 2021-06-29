@@ -1,0 +1,37 @@
+.custom-container {
+  padding-left: 5vw;
+  padding-right: 5vw;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 5vh;
+  width: 100%;
+  .test-header-container {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    .test-header-info {
+      margin-left: 2vw;
+    }
+  }
+  .quiz-btn-next {
+    padding: 2%;
+    text-align: center;
+    background-color: #f8f9fa;
+
+
+    .end-test-btn {
+      font-weight: bold;
+      font-size: 1rem;
+      /* text-align: center; */
+      width: 20%;
+
+    }
+    .previous-test-btn {
+      font-weight: bold;
+      font-size: 1rem;
+      width: 20%;
+      background-color: #cfcfcf;
+
+    }
+  }
+}

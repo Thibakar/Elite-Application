@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+body  {
+  overflow-x: hidden;
+  font-family: 'Open Sans', sans-serif;
+}
+.web-font-styling {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.bg-black {
+  background-color: #212121;
+}
+.bg-blue {
+  background-color: #146b48;
+  opacity: 4%;
+}
+
+.text-white {
+  color: white;
+}
+.bg-grey
+{
+  background-color: #ebebeb;
+  padding-bottom:150px;
+ 
+ 
+}
+.content{
+  padding-top:60px;
+  padding-left: 98px;
+}
+.head
+{
+  font-size: 35px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.87);
+  margin-bottom:60px;
+}
+.sub-head
+{
+  color: rgba(0, 0, 0, 0.87);
+  margin-bottom: 30px;
+}
+.text{
+  color: rgba(0, 0, 0, 0.87);
+  padding-left: 20px;
+
+}
+.text-align
+{
+  padding-bottom:40px;
+}
+.video{
+  margin-top:119px;
+  margin-right: 98px;
+  text-align:center;
+ 
+}
+.add-card
+{
+  /* width: 569px; */
+  background-color: #000000;
+  height: 348px;
+}
+.add-video-btn
+{
+ 
+  /* width: 224px;
+  height: 50px; */
+  margin-top:30px;
+ /* margin-left:150px; */
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.54);
+}
+
+.bg-white
+{
+  background-color: #ffffff;
+  padding-bottom:57px;
+}
+.sd-card-video
+{
+  /* width: 529px;
+  height: 324px; */
+  /* margin-top:146px;
+  margin-right:324px; */
+
+}
+.top-courses
+{
+  background-color: #ebebeb;
+}
+.course-card
+{
+  margin-top:60px;
+  margin-left: 100px;
+  margin-bottom:60px;
+}

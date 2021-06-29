@@ -1,0 +1,46 @@
+body {
+	overflow-x: hidden;
+	font-family: "Open Sans", sans-serif !important;
+}
+.web-font-styling {
+	font-family: "Open Sans", sans-serif !important;
+}
+.clr {
+	background-color: white !important;
+	color: #000000 !important;
+}
+.nav-tabs {
+	.nav-link {
+		color: black !important;
+	}
+}
+.nav-link {
+	&:focus {
+		background-color: rgba(20, 107, 72, 0.1) !important;
+	}
+}
+.bg-green {
+	background-color: #146b48 !important;
+}
+
+.right-container{
+			.btn-secondary {
+			font-size: 14px;
+			color: #000000;
+			 border-color: #6c757d;
+			 background-color: #ffff !important;
+		}
+
+		.SDcard-add.card {
+			>div {
+				width: 268px !important;
+				height: 360px !important;
+			}
+		}
+		.livedemo-add.card{
+			>div {
+				width:268px !important;
+				
+			}
+		}
+}

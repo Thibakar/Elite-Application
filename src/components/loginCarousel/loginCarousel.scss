@@ -1,0 +1,19 @@
+.carousel_img{
+    display: block;
+}
+.EliteFont
+{ h1
+   {
+    font-weight:400px;
+    color: #fff;
+   }
+}
+.studierColor
+{
+    color: #fff;
+}
+@media only screen and (max-width: 600px) {
+    .carousel_img{
+        display: none;
+    }
+}

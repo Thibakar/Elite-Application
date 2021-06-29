@@ -1,0 +1,17 @@
+.submit-btn {
+  width: 197px;
+  /* height: 28px; */
+  font-size: 13px;
+  margin-top: 20px;
+  text-align: center;
+  background-color: #146b48 !important;
+}
+.form-group {
+  text-align: center;
+  position: relative;
+  .errorMessage{
+    position: absolute;
+    right: 0;
+    font-size: 12px;
+  }
+}

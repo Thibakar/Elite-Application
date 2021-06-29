@@ -1,0 +1,137 @@
+
+body {
+	overflow-x: hidden;
+	font-family: "Open Sans", sans-serif !important;
+}
+.web-font-styling {
+	font-family: "Open Sans", sans-serif !important;
+}
+.bg-black {
+	background-color: #212121;
+}
+.bg-blue {
+	background-color: #146b48;
+	opacity: 4%;
+}
+.text-white {
+	color: white;
+}
+.text-black {
+	color: black;
+	color: #000000;
+	margin-bottom: 30px;
+}
+.center {
+	text-align: center;
+}
+.cousre-img {
+	width: 50%;
+	margin-top: 60px;
+	height: 265px;
+	background-color: #efefef;
+	margin-left: 129px;
+}
+.big-btn {
+	border-radius: 5px;
+	border: solid 1px #707070;
+	background-color: #ffffff;
+	margin-bottom: 20px;
+}
+.division {
+	margin-bottom: 20px;
+}
+.text-1 {
+	font-size: 25px;
+	font-weight: 600;
+}
+.text-2 {
+	margin-top: 8px;
+	padding-left: 20px;
+	font-size: 20px;
+}
+.collapse-right {
+	font-size: 20px;
+	padding-left: 250px;
+}
+.course-fee {
+	margin-left: 152px;
+	// margin-top: 68px;
+	font-size: 20px;
+}
+.modelContent{
+	margin-top: 10px;
+}
+.AddimageWidth
+{
+ width:auto;
+ height: 100px;
+ 
+}
+.btnBackground{
+	// width:900px;
+	border:1px solid black;
+	background-color:#fff;
+	width:90%;
+	padding-left: 25px;
+	padding-right: 25px;
+	text-align: center;
+	border-radius: 5px;
+	padding:10px;
+}
+// .btn-light {
+// 	/* color: #212529; */
+	
+//     background-color: #f8f9fa;
+//     border-color: #f8f9fa;
+// }
+.product-size {
+	font-size: 10px;
+	color: #929292;
+	margin: 0px;
+	padding-bottom: 5px;
+  }
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+	.cousre-img {
+		width: 100%;
+		margin-top: 10px;
+		height: 265px;
+		background-color: #efefef;
+		margin-left: 0px;
+	}
+	.collapse-right {
+		font-size: 14px;
+		padding-left: 0px;
+	}
+	.course-fee {
+		margin-left: 50px;
+		font-size: 20px;
+		margin-top: 20px;
+	}
+	.heading {
+		/* margin-top: 20px; */
+		font-family: OpenSans;
+		font-size: 24px;
+		color: #474747;
+		font-weight: 600;
+	}
+}
+.modal-header {
+margin-right: 10px;
+margin-left: 10px;
+
+}
+.modal .customModal{
+	position: absolute;
+	right: 120px;
+    top: 40px;
+}
+.batchModal{
+	// background-color: #ccc;
+	display: flex;
+	justify-content: center;
+	.dataTable{
+		border: 1px solid #ccc;
+    	border-radius: 5px;
+		width: calc(100% - 100px);
+	}
+}

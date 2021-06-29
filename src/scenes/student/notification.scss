@@ -1,0 +1,65 @@
+
+.mainNotification{
+    width:100%;
+    background-color: #ccc;
+}
+.notify{
+ 
+    padding-top: 20px;
+    font-weight: bold;
+    padding-bottom: 25px;
+  
+}
+.notificationList{
+    overflow:scroll;
+    height: 70vh;  
+    // background-color:#ccc ;
+}
+
+
+.studentInstructions
+{
+    display:grid;
+    grid-template-columns: 5% 75% 15%; 
+    background-color:#ffff;
+    justify-content: space-between;
+    grid-template-areas: 
+    "a b c c";
+    
+    box-shadow: 0px 0px 9px 3px #ad9f9f;
+
+    padding: 10px;
+    margin-bottom:20px;
+
+    .studentInstRight {
+       padding-left: 10px;
+       padding-top: 10px;
+    span{
+        font-size: 14px;
+    }
+        }
+        .notificationImg{
+            padding: 10px;
+            img{
+                width:50px;
+            }
+        }
+	
+    // p{
+    //     font-size:10px;
+    // }
+}
+.studentMinute{
+    grid-area: c;
+    align-self: end;
+    h6{
+        font-size: 10px;
+        float: right;
+        padding-right: 10px;
+    }
+    
+    
+}
+// .studentContent{
+//     font-size:10px;
+// }

@@ -1,0 +1,46 @@
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    display: none !important;
+   
+}
+.carousel-indicators {
+   
+    display: none !important;
+   
+}
+.cardCourselContainer {
+	.cardCoursel {
+		display: flex;
+		justify-content: space-between;
+	}
+	.carousel-inner {
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+.videoCourselContainer {
+	.videoCoursel {
+		display: flex;
+		justify-content: space-between;
+	}
+	.carousel-inner {
+		width: calc(85% - 60px);
+		margin-left: 100px;
+	}
+	.carousel-control-next-icon {
+		display: none;
+	}
+	.carousel-control-prev-icon {
+		display: none;
+	}
+	.card {
+		margin-right: 20px;
+	}
+}
+
+.testiCourselContainer
+{
+	.testiCoursel{
+		display: flex;
+		justify-content: space-between;
+	} 
+}

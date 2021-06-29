@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+    <defs>
+        <style>
+            .cls-1,.cls-3{fill:#40529a}.cls-1{stroke:#666}.cls-2{clip-path:url(#clip-path)}
+        </style>
+        <clipPath id="clip-path">
+            <path id="Rectangle_578" d="M0 0h28v28H0z" class="cls-1" data-name="Rectangle 578" transform="translate(0 -8.242)"/>
+        </clipPath>
+    </defs>
+    <g id="Mask_Group_50" class="cls-2" data-name="Mask Group 50" transform="translate(0 8.242)">
+        <g id="facebook_4_" data-name="facebook (4)" transform="translate(0 -7.754)">
+            <g id="Group_30345" data-name="Group 30345">
+                <path id="Path_24325" d="M24.719 0H3.281A3.285 3.285 0 0 0 0 3.281v21.438A3.285 3.285 0 0 0 3.281 28h21.438A3.285 3.285 0 0 0 28 24.719V3.281A3.285 3.285 0 0 0 24.719 0zm1.094 24.719a1.1 1.1 0 0 1-1.094 1.094h-6.235V16.9h3.379l.558-3.391h-3.937v-2.353a1.613 1.613 0 0 1 1.641-1.641h2.242v-3.39h-2.242a5.03 5.03 0 0 0-5.03 5.041v2.342h-3.282V16.9h3.282v8.914H3.281a1.1 1.1 0 0 1-1.094-1.094V3.281a1.1 1.1 0 0 1 1.094-1.093h21.438a1.1 1.1 0 0 1 1.094 1.094z" class="cls-3" data-name="Path 24325"/>
+            </g>
+        </g>
+    </g>
+</svg>
